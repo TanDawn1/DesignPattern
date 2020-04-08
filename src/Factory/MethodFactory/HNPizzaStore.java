@@ -1,14 +1,15 @@
-package MethodFactory;
+package Factory.MethodFactory;
 
-public class BJPizzaStore extends PizzaStore {
+public class HNPizzaStore extends PizzaStore{
     @Override
     protected Pizza createPizza(String type) {
 
         Pizza pizza = null;
 
         if(type.equals("cheese")){
-            pizza = new BjCheesePizza();
+            pizza = new HNCheesePizza();
         }
+
 
         return pizza;
     }

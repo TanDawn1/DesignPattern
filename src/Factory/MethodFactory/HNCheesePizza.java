@@ -1,4 +1,4 @@
-package MethodFactory;
+package Factory.MethodFactory;
 
 public class HNCheesePizza  extends Pizza{
 

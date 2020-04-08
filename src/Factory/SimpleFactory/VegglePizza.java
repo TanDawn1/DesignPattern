@@ -1,4 +1,4 @@
-package SimpleFactory;
+package Factory.SimpleFactory;
 
 public class VegglePizza extends Pizza{
 
