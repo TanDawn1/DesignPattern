@@ -1,5 +1,7 @@
 package SimpleProxy.JDKProxy;
 
+import java.util.ArrayList;
+
 /**
  * 一个人 希望买一台最新的顶配 MacBook；
  * 另一个 希望买一台 MateBook
@@ -17,6 +19,9 @@ public class Main {
         //通过调用动态代理对象方法从而调用目标对象方法
         //实际上是调用了invoke（），再通过invoke（）里的反射机制调用目标对象的方法
         buy1.buy();
+
+        ArrayList<String> list = new ArrayList<>();
+      
 
         Buyer2 buyer2 = new Buyer2();
 
